@@ -13,7 +13,7 @@ This folder collects everything that is safe to publish in a public “Clearbook
 ## TL;DR
 
 - **Product:** Multi-tenant booking SaaS with admin workspace + embeddable public widget.
-- **Stack:** Next.js 14 (App Router), TypeScript, MongoDB/Mongoose, Redis (Upstash), NextAuth, Stripe Connect, SCSS Modules, Cypress, GitHub Actions, Render.
+- **Stack:** Next.js 15 (App Router, React 19.1), TypeScript, MongoDB/Mongoose, Redis (Upstash), NextAuth, Stripe Connect, SCSS Modules, Cypress, GitHub Actions, Render.
 - **Status:** Live demo at [https://clearbook.app](https://clearbook.app) · repo remains private.
 - **Production-ready:** Fully fleshed SaaS with RBAC, tenant theming, billing, availability planning, booking validation, and an embeddable widget — ready for real clients/business workspaces.
 - **Role:** Solo founder/engineer — product design, full-stack build, infrastructure, and ops.
@@ -37,27 +37,27 @@ This folder collects everything that is safe to publish in a public “Clearbook
 
 | Hero & CTA | Feature highlights | How it works | Pricing | Demo CTA |
 | --- | --- | --- | --- | --- |
-| ![Marketing hero](clearbook-showcase/media/commercial-hero.png) | ![Feature grid](clearbook-showcase/media/commercial-features.png) | ![How it works](clearbook-showcase/media/commercial-howitworks.png) | ![Pricing](clearbook-showcase/media/commercial-pricing.png) | ![Launch demo](clearbook-showcase/media/commercial-demo.png) |
+| ![Marketing hero](media/commercial-hero.png) | ![Feature grid](media/commercial-features.png) | ![How it works](media/commercial-howitworks.png) | ![Pricing](media/commercial-pricing.png) | ![Launch demo](media/commercial-demo.png) |
 
 **Booking widget**
 
 | Choose service/time | Confirm details |
 | --- | --- |
-| ![Booking widget service selection](clearbook-showcase/media/booking-widget-1.png) | ![Booking widget confirmation](clearbook-showcase/media/booking-widget-2.png) |
+| ![Booking widget service selection](media/booking-widget-1.png) | ![Booking widget confirmation](media/booking-widget-2.png) |
 
 **Dashboard**
 
 | Overview | Availability planner | Bookings |
 | --- | --- | --- |
-| ![Overview dashboard](clearbook-showcase/media/overview-dashboard.png) | ![Availability planner](clearbook-showcase/media/availability-dashboard.png) | ![Bookings dashboard](clearbook-showcase/media/bookings-dashboard.png) |
+| ![Overview dashboard](media/overview-dashboard.png) | ![Availability planner](media/availability-dashboard.png) | ![Bookings dashboard](media/bookings-dashboard.png) |
 
 | Services | Staff | Staff details |
 | --- | --- | --- |
-| ![Services dashboard](clearbook-showcase/media/services-dashboard.png) | ![Staff dashboard](clearbook-showcase/media/staff-dashboard.png) | ![Staff profile](clearbook-showcase/media/staff-details-dashboard.png) |
+| ![Services dashboard](media/services-dashboard.png) | ![Staff dashboard](media/staff-dashboard.png) | ![Staff profile](media/staff-details-dashboard.png) |
 
 | Settings: Profile | Settings: Booking rules | Settings: Payments | Settings: Notifications |
 | --- | --- | --- | --- |
-| ![Settings profile](clearbook-showcase/media/settings-1-dashboard.png) | ![Booking rules](clearbook-showcase/media/settings-2-dashboard.png) | ![Payments](clearbook-showcase/media/settings-3-dashboard.png) | ![Notifications](clearbook-showcase/media/settings-4-dashboard.png) |
+| ![Settings profile](media/settings-1-dashboard.png) | ![Booking rules](media/settings-2-dashboard.png) | ![Payments](media/settings-3-dashboard.png) | ![Notifications](media/settings-4-dashboard.png) |
 
 ---
 
@@ -116,7 +116,7 @@ Stripe Connect
 - **Node test runner:** unit + feature coverage (schemas, RBAC helpers, booking math).
 - **Integration suites:** spin up Mongo + stripe-mock via Docker to test bookings, availability, Stripe checkout/webhooks, and tenant tooling.
 - **Cypress:** end-to-end flows for the widget and dashboard quick actions.
-- **GitHub Actions:** lint → typecheck → build → tests on every push; nightly cron runs cleanup scripts.
+- **GitHub Actions:** lint → typecheck → build → tests; workflow is disabled in the private repo and kept only as reference. Render cron runs the cleanup scripts (archive → bookings → staff → demo) daily at 01:00 UTC.
 - **Render deployment:** Node 20 service with `/` health check, log streaming, and alerting on failed deploys/health checks.
 
 ---
