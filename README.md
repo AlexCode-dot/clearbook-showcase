@@ -2,6 +2,9 @@
 
 This folder collects everything that is safe to publish in a public “Clearbook” portfolio repo. It covers the product story, architecture, lessons learned, and a few sanitized snippets so hiring teams can understand the depth of the project without exposing the proprietary codebase.
 
+- **Note:** The real Clearbook codebase remains private. This repository is a curated, non-sensitive showcase so recruiters can see the scope without accessing the proprietary repo.
+- **Live site:** https://clearbook.app — launches a fresh demo tenant at `/demo` with no login required.
+
 - `README.md` (this file) → ready for a public repo or Notion/Google Doc.
 - `snippets/` → standalone TypeScript samples suitable for linking or embedding elsewhere.
 
@@ -12,6 +15,7 @@ This folder collects everything that is safe to publish in a public “Clearbook
 - **Product:** Multi-tenant booking SaaS with admin workspace + embeddable public widget.
 - **Stack:** Next.js 14 (App Router), TypeScript, MongoDB/Mongoose, Redis (Upstash), NextAuth, Stripe Connect, SCSS Modules, Cypress, GitHub Actions, Render.
 - **Status:** Live demo at [https://clearbook.app](https://clearbook.app) · repo remains private.
+- **Production-ready:** Fully fleshed SaaS with RBAC, tenant theming, billing, availability planning, booking validation, and an embeddable widget — ready for real clients/business workspaces.
 - **Role:** Solo founder/engineer — product design, full-stack build, infrastructure, and ops.
 
 ---
