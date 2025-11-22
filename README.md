@@ -27,6 +27,36 @@ This folder collects everything that is safe to publish in a public “Clearbook
 
 ---
 
+## Screenshots
+
+**Marketing**
+
+| Hero & CTA | Feature highlights | How it works | Pricing | Demo CTA |
+| --- | --- | --- | --- | --- |
+| ![Marketing hero](clearbook-showcase/media/commercial-hero.png) | ![Feature grid](clearbook-showcase/media/commercial-features.png) | ![How it works](clearbook-showcase/media/commercial-howitworks.png) | ![Pricing](clearbook-showcase/media/commercial-pricing.png) | ![Launch demo](clearbook-showcase/media/commercial-demo.png) |
+
+**Booking widget**
+
+| Choose service/time | Confirm details |
+| --- | --- |
+| ![Booking widget service selection](clearbook-showcase/media/booking-widget-1.png) | ![Booking widget confirmation](clearbook-showcase/media/booking-widget-2.png) |
+
+**Dashboard**
+
+| Overview | Availability planner | Bookings |
+| --- | --- | --- |
+| ![Overview dashboard](clearbook-showcase/media/overview-dashboard.png) | ![Availability planner](clearbook-showcase/media/availability-dashboard.png) | ![Bookings dashboard](clearbook-showcase/media/bookings-dashboard.png) |
+
+| Services | Staff | Staff details |
+| --- | --- | --- |
+| ![Services dashboard](clearbook-showcase/media/services-dashboard.png) | ![Staff dashboard](clearbook-showcase/media/staff-dashboard.png) | ![Staff profile](clearbook-showcase/media/staff-details-dashboard.png) |
+
+| Settings: Profile | Settings: Booking rules | Settings: Payments | Settings: Notifications |
+| --- | --- | --- | --- |
+| ![Settings profile](clearbook-showcase/media/settings-1-dashboard.png) | ![Booking rules](clearbook-showcase/media/settings-2-dashboard.png) | ![Payments](clearbook-showcase/media/settings-3-dashboard.png) | ![Notifications](clearbook-showcase/media/settings-4-dashboard.png) |
+
+---
+
 ## Problems I Solved
 
 1. **Scheduling chaos:** Businesses needed service- and staff-specific availability, rotating patterns, and a way to draft schedules before publishing.
